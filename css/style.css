@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f8f9fa;
+}
+
+.my_container {
+    padding: 0px 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.box {
+    border: solid 1px #187e8b;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin: 1%;
+    margin-bottom: 80px;
+    transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    width: 100%;
+    vertical-align: top;
+    padding: 20px;
+    text-align: center; 
+}
+      
+.box .box_title {
+    margin: -20px 0px 20px 0px;
+}
+
+.box .box_instructions_title {
+    margin: -40px 0px 20px 0px;
+}
+
+.box p {
+      text-align: left;
+}
+
+.box sub {
+	  vertical-align: bottom;
+      text-align: left;
+}
+
+.box h2 {
+      border-bottom: solid 2px #187e8b;
+      font-size: 1em;
+      font-weight: 500;
+}
+
+.box .box_title img {
+      margin-top: -30px;
+      background: #f8f9fa;
+      width: 60px;
+      padding: 5px;
+      border-radius: 8px;
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      -o-border-radius: 8px;
+}
+
+.box .box_instructions_title img {
+      margin-top: -30px;
+      background: #f8f9fa;
+      width: 60px;
+      padding: 5px;
+      border-radius: 8px;
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      -o-border-radius: 8px;
+}
+
+.box a {
+	color: black;
+	text-decoration: none;
+}
+
+.box:hover a {
+      color: #5884ae;
+}
+
+.box:hover a:link {  
+	color: blue;  
+	text-decoration: none;
+}  
+.box:hover a:visited {  
+	color: black;  
+	text-decoration: none;
+}  
+.box:hover a:active {  
+	text-decoration: none  
+}  
+.box:hover a:hover {  
+	color: blue;  
+	text-decoration: none;
+}  
+
+.my_form_container {
+    padding: 0px 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+	margin-bottom: 80px;
+}
+
+.paypal-form-group {
+    margin: 1%;
+    margin-bottom: 80px;
+    width: 100%;
+    vertical-align: top;
+    padding: 30px;
+    text-align: center; 
+}
+
+.submit-button {
+    margin: auto;
+    text-align: center; 
+}
+
+.id-submit-button {
+  background-color: #ffffff;
+  border: none;
+  color: #1883ba;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+  
+.id-submit-button:hover{
+    color: #1883ba;
+}  
+
+.lists-button {
+  border: none;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  margin-bottom: 80px;
+}
+  
+.lists-button:hover{
+    color: #1883ba;
+} 

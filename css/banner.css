@@ -1,0 +1,29 @@
+.cont_banner_presentation{
+    height: 50vh;
+}
+
+.banner_presentation_shadow{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 70%;
+    text-align: center;
+	background-image: url(../img/deep-ocean-background.jpg);
+    color: #fff;
+    margin: auto;
+    border-radius: 8px;	
+}
+
+.banner_presentation_shadow h1{
+    font-size: 4vh;
+    margin-bottom: 10px;
+}
+
+.banner_presentation_shadow p{
+    font-size: 2vh;
+    margin-bottom: 10px;
+}
